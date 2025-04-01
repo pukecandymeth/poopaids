@@ -1,0 +1,63 @@
+/* Basic layout and padding */
+#stat {
+    width: 80%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Stats items styling */
+  .stat-item {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(46, 44, 52);
+  }
+  
+  .stat-item:last-child {
+    border-bottom: none;
+  }
+  
+  .stat-item strong {
+    color: #555;
+  }
+  
+  .stat-item span {
+    color: #444;
+  }
+  
+  /* Section for the chart */
+  #visual-graph {
+    margin: 10px 10px;
+    padding: 10px 10px;
+  }
+  
+  .graph-container {
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .graph-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  
